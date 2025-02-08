@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #5c6bc0;
+}
+
+header .contact-info {
+    text-align: right;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.section-title {
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.experience, .education, .skills {
+    margin-bottom: 20px;
+}
+
+.experience ul, .education ul, .skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience li, .education li, .skills li {
+    margin-bottom: 10px;
+}
+
+.experience .job, .education .school {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.experience .job-description, .education .degree-description {
+    margin-left: 20px;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #666;
+}
